@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px;
+}
+
+.header-right button {
+    background-color: white;
+    border: none;
+    color: #4CAF50;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.header-right button:hover {
+    background-color: #ddd;
+}
+
+.main-layout {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.urgent-prompts li {
+    margin-bottom: 10px;
+}
+
+.acknowledge-btn {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.acknowledge-btn:hover {
+    background-color: #e68900;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.options-panel {
+    margin-bottom: 20px;
+}
+
+.options-panel button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.options-panel button:hover {
+    background-color: #45a049;
+}
+
+.machine-display {
+    display: none;
+}
+
+.machine-display h2 {
+    margin-top: 0;
+}
+
+.machine-list li {
+    margin-bottom: 20px;
+}
+
+.machine-details button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.machine-details button:hover {
+    background-color: #1976D2;
+}
